@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 
 
-const counter = () => {
+const Counter = () => {
 
 
     const { count } = useSelector((state) => state.counter);
@@ -18,4 +18,4 @@ const counter = () => {
     );
 };
 
-export default counter;
+export default Counter;
